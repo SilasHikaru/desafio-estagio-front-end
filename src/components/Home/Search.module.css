@@ -1,0 +1,35 @@
+
+.labelSearch{
+    font-size: 20px;
+    color:#225E89;
+    font-weight:400;
+    
+}
+
+.containerInput{
+    margin-top:24px;
+    display: flex;
+}
+
+.inputSearch {
+    width: 360px;
+    height: 48px;
+    border: 0.8px solid #7E7E7E;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-right:none;
+    padding-left:10px;
+}
+
+.inputSearch::placeholder {
+    font-size: 16px;
+}
+
+.btnSearch{
+   
+    border-left: none;
+    border: 0.8px solid #7E7E7E;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 0px 10px;
+}
